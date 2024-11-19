@@ -1,0 +1,8 @@
+prefix=/home/ptroc/Desktop/zhaoxin_ws_1/devel
+
+Name: practice
+Description: Description of practice
+Version: 0.0.0
+Cflags: -I/home/ptroc/Desktop/zhaoxin_ws_1/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy roscpp std_msgs message_runtime

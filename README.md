@@ -1,3 +1,5 @@
 bag_analysis文件夹存储着对bag文件的分析，还有根据数据画了一些雷达的图，不过雷达建图搞不出来，太难了（
 
 ros_homework文件夹尝试实现了cpp和python的在driver/mag话题上的订阅和发送，尝试实现了launch，详见readme
+
+zhaoxin_ws_fangzhen文件夹里放的是虚拟仿真的招新题目

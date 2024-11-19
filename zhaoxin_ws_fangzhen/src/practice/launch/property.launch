@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="practice" type="property_talker.py" name="property_talker" />
+  <node pkg="practice" type="property_listener.py" name="property_listener" />
+</launch>
