@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="something_about_topic" type="mag_publisher" name="mag_publisher" output="screen" />
+  <node pkg="something_about_topic" type="mag_subscriber" name="mag_subscriber" output="screen" />
+</launch>

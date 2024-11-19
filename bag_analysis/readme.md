@@ -28,9 +28,13 @@ topics:      /driver/encoder    4758 msgs    : nav_msgs/Odometry
 ```
 
 可以看出在这个 bag 中一共有 5 个话题，4 种数据类型：
+
 IMU：明显来自惯性单元
+
 LaserScan：明显来自雷达扫描
+
 MagneticField：应该是磁力传感器
+
 Odometry：查询得知是航迹推演（Odometry）
 
 ## 提取为 yaml 分析数据
@@ -70,7 +74,7 @@ frame_id 查询得知 imu_link 是坐标系，frame_id 即为坐标系表示方�
 
 magnetic_field 内容即为 x/y/z 轴上的磁场强度
 
-magnetic_field_covariance 查到的只有定义方式，没查到具体的左右，只知道是表示不确定性的
+magnetic_field_covariance 查到的只有定义方式，没查到具体的作用，只知道是表示不确定性的
 
 ### /driver/scan
 

@@ -1,0 +1,8 @@
+prefix=/home/ptroc/Desktop/ros_homework/devel
+
+Name: someting_about_topic
+Description: Description of someting_about_topic
+Version: 0.0.0
+Cflags: -I/home/ptroc/Desktop/ros_homework/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs geometry_msgs message_runtime
